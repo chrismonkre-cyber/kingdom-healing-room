@@ -1,0 +1,22 @@
+{
+  "name": "Kingdom Healing Room",
+  "short_name": "Healing Room",
+  "description": "Receive the Word. Stand in Faith. Walk in Healing.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#120405",
+  "theme_color": "#d4944a",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
