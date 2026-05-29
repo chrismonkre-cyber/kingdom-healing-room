@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
+const LOGO_URL = "https://media.base44.com/images/public/6a15e69ec699dec43ddd5423/de815717a_newlogo.png";
 import PageBackground from "../components/PageBackground";
 import GlassCard from "../components/GlassCard";
 import { IMAGES } from "../lib/images";
 
-const goldStyle = { color: "#d4af37", textShadow: "0 0 18px rgba(212,175,55,0.5), 0 2px 4px rgba(0,0,0,0.8)" };
-const ivoryStyle = { color: "rgba(255,248,230,0.92)" };
+const goldStyle = { color: "#f5d060", textShadow: "0 0 28px rgba(212,175,55,0.85), 0 0 10px rgba(212,175,55,0.5), 0 3px 6px rgba(0,0,0,0.95)" };
+const ivoryStyle = { color: "rgba(255,252,235,0.97)" };
 
 const SECTIONS = [
   { title: "Healing Begins with the Word", text: "God's Word is alive and powerful. When you speak Scripture over your life, healing begins. The Word is the foundation of every miracle." },
@@ -20,6 +21,14 @@ export default function Home() {
       <div className="max-w-4xl mx-auto px-4 py-12 md:py-20 relative z-10">
         {/* Hero */}
         <div className="text-center mb-12 md:mb-16">
+          <div className="flex justify-center mb-4">
+            <img
+              src={LOGO_URL}
+              alt="Kingdom Mandate Ministry"
+              className="rounded-full object-cover"
+              style={{ width: 96, height: 96, border: "2px solid rgba(212,175,55,0.7)", boxShadow: "0 0 24px rgba(212,175,55,0.4)" }}
+            />
+          </div>
           <h1 className="font-heading font-black text-3xl md:text-5xl lg:text-6xl mb-4" style={goldStyle}>
             Kingdom Healing Room
           </h1>
@@ -42,7 +51,7 @@ export default function Home() {
             <Link to="/journal" className="inline-block px-6 py-3 rounded-lg font-heading text-sm font-bold transition-all" style={{ background: "rgba(60,15,25,0.8)", color: "#d4af37", border: "1px solid rgba(212,175,55,0.5)" }}>
               Prayer Journal
             </Link>
-            <a href="https://kingdommandateministry.com" target="_blank" rel="noopener noreferrer" className="inline-block px-6 py-3 rounded-lg font-heading text-sm font-bold transition-all" style={{ background: "rgba(60,15,25,0.8)", color: "#d4af37", border: "1px solid rgba(212,175,55,0.5)" }}>
+            <a href="https://www.paypal.com/donate/?business=kingdommm.chris%40gmail.com" target="_blank" rel="noopener noreferrer" className="inline-block px-6 py-3 rounded-lg font-heading text-sm font-bold transition-all" style={{ background: "rgba(60,15,25,0.8)", color: "#d4af37", border: "1px solid rgba(212,175,55,0.5)" }}>
               Partner / Sow
             </a>
           </div>

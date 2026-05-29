@@ -16,7 +16,7 @@ export default function PageBackground({ desktop, mobile, children }) {
       className="min-h-screen w-full bg-cover bg-center bg-no-repeat relative"
       style={{ backgroundImage: `url(${bg})` }}
     >
-      <div className="min-h-screen w-full" style={{ background: "rgba(30,10,5,0.25)" }}>
+      <div className="min-h-screen w-full" style={{ background: "rgba(20,5,8,0.18)" }}>
         {children}
       </div>
     </div>
