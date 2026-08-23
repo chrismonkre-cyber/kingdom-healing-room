@@ -36,7 +36,7 @@ export default function Home() {
           <h1 className="font-heading font-black text-3xl md:text-5xl lg:text-6xl mb-4" style={goldStyle}>
             Kingdom Healing Room
           </h1>
-          <p className="font-heading text-base md:text-xl mb-6" style={{ ...goldStyle, fontSize: undefined }}>
+          <p className="font-heading text-base md:text-xl mb-6" style={ivoryStyle}>
             Receive the Word. Stand in Faith. Walk in Healing.
           </p>
           <GlassCard className="max-w-2xl mx-auto mb-8">
