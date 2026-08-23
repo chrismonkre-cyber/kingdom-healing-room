@@ -17,7 +17,11 @@ const SECTIONS = [
 
 export default function Home() {
   return (
-    <PageBackground desktop={IMAGES.home.desktop} mobile={IMAGES.home.mobile}>
+    <PageBackground
+  desktop={IMAGES.home.desktop}
+  mobile={IMAGES.home.mobile}
+  overlay="rgba(20,5,8,0.40)"
+>
       <div className="max-w-4xl mx-auto px-4 py-12 md:py-20 relative z-10">
         {/* Hero */}
         <div className="text-center mb-12 md:mb-16">
